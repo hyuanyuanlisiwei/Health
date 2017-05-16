@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>健身系统</title>
+    <script src="lib/vue.js"></script>
+    <link rel="stylesheet" href="lib/element-ui/element-ui.css">
+    <script src="lib/element-ui/element-ui.js"></script>
+    <script src="lib/vue-resource.min.js"></script>
+    <style>
+        .el-form{
+            border:1px solid #4140ff;
+            padding:20px;
+        }
+        .el-input__icon+.el-input__inner {
+            padding-right: 9px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <el-row>
+            <el-col :span="24">
+                <div class="grid-content bg-purple-dark">
+                    <el-menu theme="dark" :default-active="activeIndex" class="el-menu-demo" mode="horizontal">
+                        <el-menu-item index="1">健身管理</el-menu-item>
+                    </el-menu>
+                </div>
+            </el-col>
+        </el-row>
+        <el-row type="flex" justify="center" style="margin-top: 50px">
+            <el-col :span="22">
+                <el-form :model="InputData" :inline="true" class="demo-form-inline el-form" label-width="150px">
+                    <el-form-item label="姓名">
+                        <el-select v-model="InputData.person" placeholder="姓名">
+                            <el-option v-for="item in persons" :value="item.id" :label="item.name"></el-option>
+                        </el-select>
+                    </el-form-item>
+                    <el-form-item label="体重(kg)">
+                        <el-input v-model="InputData.weight"></el-input>
+                    </el-form-item>
+                    <el-form-item label="体年龄">
+                        <el-input v-model="InputData.bodyAge"></el-input>
+                    </el-form-item>
+                    <el-form-item label="BMI">
+                        <el-input v-model="InputData.bmi"></el-input>
+                    </el-form-item>
+                     <el-form-item label="体脂率(%)">
+                        <el-input v-model="InputData.bodyFatRate"></el-input>
+                    </el-form-item>
+                     <el-form-item label="基础代谢(kcal)">
+                        <el-input v-model="InputData.bmr"></el-input>
+                    </el-form-item>
+                     <el-form-item label="内脏脂肪">
+                        <el-input v-model="InputData.viseralFat"></el-input>
+                    </el-form-item>
+                    <el-form-item label="全身皮脂(%)">
+                        <el-input v-model="InputData.allFat"></el-input>
+                    </el-form-item>
+                    <el-form-item label="全身肌肉含量(%)">
+                        <el-input v-model="InputData.allMuscle"></el-input>
+                    </el-form-item>
+                    <el-form-item label="上肢皮脂(%)">
+                        <el-input v-model="InputData.upperFat"></el-input>
+                    </el-form-item>
+                    <el-form-item label="上肢肌肉含量(%)">
+                        <el-input v-model="InputData.upperMuscle"></el-input>
+                    </el-form-item>
+                    <el-form-item label="躯干皮脂(%)">
+                        <el-input v-model="InputData.trunkFat"></el-input>
+                    </el-form-item>
+                    <el-form-item label="躯干肌肉含量(%)">
+                        <el-input v-model="InputData.trunkMuscle"></el-input>
+                    </el-form-item>
+                    <el-form-item label="下肢皮脂(%)">
+                        <el-input v-model="InputData.lowerFat"></el-input>
+                    </el-form-item>
+                    <el-form-item label="下肢肌肉含量(%)">
+                        <el-input v-model="InputData.lowerMuscle"></el-input>
+                    </el-form-item>
+                    <el-form-item>
+                        <el-button type="primary" @click="submitData">提交数据</el-button>
+                        <el-button type="primary" @click="sendEmail">发送邮件</el-button>
+                        <el-button type="primary" @click="searchData">按名查询</el-button>
+                    </el-form-item>
+                </el-form>
+            </el-col>
+        </el-row>
+        <el-row type="flex" justify="center">
+            <el-col :span="22">
+                <el-table
+                    :data="tableData"
+                    border
+                    style="width: 100%">
+                    <el-table-column
+                        prop="compare"
+                        label="对比">
+                    </el-table-column>
+                    <el-table-column
+                            prop="weight"
+                            label="体重(kg)">
+                    </el-table-column>
+                    <el-table-column
+                            prop="bodyAge"
+                            label="体年龄">
+                    </el-table-column>
+                    <el-table-column
+                            prop="bmi"
+                            label="BMI">
+                    </el-table-column>
+                    <el-table-column
+                            prop="bodyFatRate"
+                            label="体脂率(%)">
+                    </el-table-column>
+                    <el-table-column
+                            prop="bmr"
+                            label="基础代谢(kcal)">
+                    </el-table-column>
+                    <el-table-column
+                            prop="viseralFat"
+                            label="内脏脂肪">
+                    </el-table-column>
+                    <el-table-column
+                            label="全身">
+                        <el-table-column
+                                prop="allFat"
+                                label="皮脂">
+                        </el-table-column>
+                        <el-table-column
+                                prop="allMuscle"
+                                label="肌肉">
+                        </el-table-column>
+                    </el-table-column>
+                    <el-table-column
+                            label="上肢">
+                        <el-table-column
+                                prop="upperFat"
+                                label="皮脂">
+                        </el-table-column>
+                        <el-table-column
+                                prop="upperMuscle"
+                                label="肌肉">
+                        </el-table-column>
+                    </el-table-column>
+                    <el-table-column
+                            label="躯干">
+                        <el-table-column
+                                prop="trunkFat"
+                                label="皮脂">
+                        </el-table-column>
+                        <el-table-column
+                                prop="trunkMuscle"
+                                label="肌肉">
+                        </el-table-column>
+                    </el-table-column>
+                    <el-table-column
+                            label="下肢">
+                        <el-table-column
+                                prop="lowerFat"
+                                label="皮脂">
+                        </el-table-column>
+                        <el-table-column
+                                prop="lowerMuscle"
+                                label="肌肉">
+                        </el-table-column>
+                    </el-table-column>
+                </el-table>
+            </el-col>
+        </el-row>
+
+
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
