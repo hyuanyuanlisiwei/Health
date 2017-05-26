@@ -1,0 +1,459 @@
+[2017-05-26 09:52:48.752] [INFO] normal - 服务器正在监听8000端口
+[2017-05-26 09:53:01.997] [INFO] normal - -----pathname-----
+[2017-05-26 09:53:01.999] [INFO] normal - /
+[2017-05-26 09:53:02.032] [INFO] normal - -----pathname-----
+[2017-05-26 09:53:02.033] [INFO] normal - /lib/vue.js
+[2017-05-26 09:53:02.034] [INFO] normal - -----pathname-----
+[2017-05-26 09:53:02.034] [INFO] normal - /lib/element-ui/element-ui.css
+[2017-05-26 09:53:02.035] [INFO] normal - -----pathname-----
+[2017-05-26 09:53:02.035] [INFO] normal - /lib/element-ui/element-ui.js
+[2017-05-26 09:53:02.036] [INFO] normal - -----pathname-----
+[2017-05-26 09:53:02.036] [INFO] normal - /lib/vue-resource.min.js
+[2017-05-26 09:53:02.037] [INFO] normal - -----pathname-----
+[2017-05-26 09:53:02.037] [INFO] normal - /index.js
+[2017-05-26 09:53:02.039] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 09:53:02.044] [INFO] normal - response静态资源-----text/css
+[2017-05-26 09:53:02.046] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 09:53:02.047] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 09:53:02.047] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 09:53:02.778] [INFO] normal - -----pathname-----
+[2017-05-26 09:53:02.779] [INFO] normal - /lib/element-ui/fonts/element-icons.woff
+[2017-05-26 09:53:02.781] [INFO] normal - response静态资源-----application/x-font-woff
+[2017-05-26 09:53:03.347] [INFO] normal - -----pathname-----
+[2017-05-26 09:53:03.348] [INFO] normal - /persons
+[2017-05-26 09:53:03.526] [INFO] normal - -----pathname-----
+[2017-05-26 09:53:03.526] [INFO] normal - /lib/element-ui/fonts/element-icons.ttf
+[2017-05-26 09:53:03.530] [INFO] normal - response静态资源-----application/octet-stream
+[2017-05-26 09:53:03.617] [INFO] normal - 打开连接
+[2017-05-26 09:53:03.667] [INFO] normal - 连接关闭
+[2017-05-26 09:53:03.698] [INFO] normal - -----pathname-----
+[2017-05-26 09:53:03.698] [INFO] normal - /favicon.ico
+[2017-05-26 09:53:38.440] [INFO] normal - -----pathname-----
+[2017-05-26 09:53:38.476] [INFO] normal - /lib/element-ui/element-ui.css
+[2017-05-26 09:53:38.507] [INFO] normal - response静态资源-----text/css
+[2017-05-26 09:55:03.758] [INFO] normal - -----pathname-----
+[2017-05-26 09:55:03.762] [INFO] normal - /favicon.ico
+[2017-05-26 09:57:03.866] [INFO] normal - -----pathname-----
+[2017-05-26 09:57:03.867] [INFO] normal - /favicon.ico
+[2017-05-26 10:13:25.071] [INFO] normal - -----pathname-----
+[2017-05-26 10:13:25.071] [INFO] normal - /
+[2017-05-26 10:13:25.099] [INFO] normal - -----pathname-----
+[2017-05-26 10:13:25.102] [INFO] normal - /lib/vue.js
+[2017-05-26 10:13:25.102] [INFO] normal - -----pathname-----
+[2017-05-26 10:13:25.103] [INFO] normal - /lib/element-ui/element-ui.css
+[2017-05-26 10:13:25.104] [INFO] normal - -----pathname-----
+[2017-05-26 10:13:25.104] [INFO] normal - /lib/element-ui/element-ui.js
+[2017-05-26 10:13:25.112] [INFO] normal - -----pathname-----
+[2017-05-26 10:13:25.112] [INFO] normal - /lib/vue-resource.min.js
+[2017-05-26 10:13:25.115] [INFO] normal - -----pathname-----
+[2017-05-26 10:13:25.115] [INFO] normal - /index.js
+[2017-05-26 10:13:25.129] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:13:25.141] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:13:25.143] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:13:25.151] [INFO] normal - response静态资源-----text/css
+[2017-05-26 10:13:25.154] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:13:25.744] [INFO] normal - -----pathname-----
+[2017-05-26 10:13:25.745] [INFO] normal - /lib/element-ui/fonts/element-icons.woff
+[2017-05-26 10:13:25.746] [INFO] normal - response静态资源-----application/x-font-woff
+[2017-05-26 10:13:25.836] [INFO] normal - -----pathname-----
+[2017-05-26 10:13:25.837] [INFO] normal - /lib/element-ui/fonts/element-icons.ttf
+[2017-05-26 10:13:25.840] [INFO] normal - response静态资源-----application/octet-stream
+[2017-05-26 10:13:26.094] [INFO] normal - -----pathname-----
+[2017-05-26 10:13:26.094] [INFO] normal - /favicon.ico
+[2017-05-26 10:14:04.583] [INFO] normal - -----pathname-----
+[2017-05-26 10:14:04.584] [INFO] normal - /
+[2017-05-26 10:14:04.650] [INFO] normal - -----pathname-----
+[2017-05-26 10:14:04.650] [INFO] normal - /lib/vue.js
+[2017-05-26 10:14:04.663] [INFO] normal - -----pathname-----
+[2017-05-26 10:14:04.664] [INFO] normal - /lib/element-ui/element-ui.css
+[2017-05-26 10:14:04.665] [INFO] normal - -----pathname-----
+[2017-05-26 10:14:04.665] [INFO] normal - /lib/element-ui/element-ui.js
+[2017-05-26 10:14:04.666] [INFO] normal - -----pathname-----
+[2017-05-26 10:14:04.666] [INFO] normal - /lib/vue-resource.min.js
+[2017-05-26 10:14:04.666] [INFO] normal - -----pathname-----
+[2017-05-26 10:14:04.666] [INFO] normal - /index.js
+[2017-05-26 10:14:04.730] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:14:04.732] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:14:04.735] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:14:04.743] [INFO] normal - response静态资源-----text/css
+[2017-05-26 10:14:04.925] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:14:05.437] [INFO] normal - -----pathname-----
+[2017-05-26 10:14:05.437] [INFO] normal - /lib/element-ui/fonts/element-icons.woff
+[2017-05-26 10:14:05.446] [INFO] normal - response静态资源-----application/x-font-woff
+[2017-05-26 10:14:05.527] [INFO] normal - -----pathname-----
+[2017-05-26 10:14:05.528] [INFO] normal - /persons
+[2017-05-26 10:14:05.565] [INFO] normal - -----pathname-----
+[2017-05-26 10:14:05.565] [INFO] normal - /lib/element-ui/fonts/element-icons.ttf
+[2017-05-26 10:14:05.569] [INFO] normal - response静态资源-----application/octet-stream
+[2017-05-26 10:14:05.582] [INFO] normal - 打开连接
+[2017-05-26 10:14:05.625] [INFO] normal - 连接关闭
+[2017-05-26 10:14:05.900] [INFO] normal - -----pathname-----
+[2017-05-26 10:14:05.900] [INFO] normal - /favicon.ico
+[2017-05-26 10:16:05.917] [INFO] normal - -----pathname-----
+[2017-05-26 10:16:05.920] [INFO] normal - /favicon.ico
+[2017-05-26 10:21:29.975] [INFO] normal - -----pathname-----
+[2017-05-26 10:21:29.980] [INFO] normal - /
+[2017-05-26 10:21:30.020] [INFO] normal - -----pathname-----
+[2017-05-26 10:21:30.020] [INFO] normal - /lib/vue.js
+[2017-05-26 10:21:30.029] [INFO] normal - -----pathname-----
+[2017-05-26 10:21:30.030] [INFO] normal - /lib/element-ui/element-ui.css
+[2017-05-26 10:21:30.030] [INFO] normal - -----pathname-----
+[2017-05-26 10:21:30.030] [INFO] normal - /lib/element-ui/element-ui.js
+[2017-05-26 10:21:30.031] [INFO] normal - -----pathname-----
+[2017-05-26 10:21:30.031] [INFO] normal - /lib/vue-resource.min.js
+[2017-05-26 10:21:30.034] [INFO] normal - -----pathname-----
+[2017-05-26 10:21:30.034] [INFO] normal - /index.js
+[2017-05-26 10:21:30.045] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:21:30.048] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:21:30.048] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:21:30.068] [INFO] normal - response静态资源-----text/css
+[2017-05-26 10:21:30.073] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:21:30.729] [INFO] normal - -----pathname-----
+[2017-05-26 10:21:30.729] [INFO] normal - /lib/element-ui/fonts/element-icons.woff
+[2017-05-26 10:21:30.730] [INFO] normal - response静态资源-----application/x-font-woff
+[2017-05-26 10:21:30.824] [INFO] normal - -----pathname-----
+[2017-05-26 10:21:30.825] [INFO] normal - /persons
+[2017-05-26 10:21:30.871] [INFO] normal - -----pathname-----
+[2017-05-26 10:21:30.871] [INFO] normal - /lib/element-ui/fonts/element-icons.ttf
+[2017-05-26 10:21:30.881] [INFO] normal - response静态资源-----application/octet-stream
+[2017-05-26 10:21:30.978] [INFO] normal - 打开连接
+[2017-05-26 10:21:31.078] [INFO] normal - -----pathname-----
+[2017-05-26 10:21:31.078] [INFO] normal - /favicon.ico
+[2017-05-26 10:21:31.147] [INFO] normal - 连接关闭
+[2017-05-26 10:22:32.911] [INFO] normal - -----pathname-----
+[2017-05-26 10:22:32.918] [INFO] normal - /
+[2017-05-26 10:22:32.993] [INFO] normal - -----pathname-----
+[2017-05-26 10:22:32.993] [INFO] normal - /lib/vue.js
+[2017-05-26 10:22:33.006] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:22:33.026] [INFO] normal - -----pathname-----
+[2017-05-26 10:22:33.027] [INFO] normal - /lib/element-ui/element-ui.css
+[2017-05-26 10:22:33.028] [INFO] normal - -----pathname-----
+[2017-05-26 10:22:33.035] [INFO] normal - /lib/element-ui/element-ui.js
+[2017-05-26 10:22:33.080] [INFO] normal - -----pathname-----
+[2017-05-26 10:22:33.177] [INFO] normal - /lib/vue-resource.min.js
+[2017-05-26 10:22:33.182] [INFO] normal - -----pathname-----
+[2017-05-26 10:22:33.182] [INFO] normal - /index.js
+[2017-05-26 10:22:33.194] [INFO] normal - response静态资源-----text/css
+[2017-05-26 10:22:33.206] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:22:33.207] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:22:33.229] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:22:33.748] [INFO] normal - -----pathname-----
+[2017-05-26 10:22:33.748] [INFO] normal - /lib/element-ui/fonts/element-icons.woff
+[2017-05-26 10:22:33.756] [INFO] normal - response静态资源-----application/x-font-woff
+[2017-05-26 10:22:33.867] [INFO] normal - -----pathname-----
+[2017-05-26 10:22:33.867] [INFO] normal - /persons
+[2017-05-26 10:22:33.925] [INFO] normal - -----pathname-----
+[2017-05-26 10:22:33.925] [INFO] normal - /lib/element-ui/fonts/element-icons.ttf
+[2017-05-26 10:22:33.928] [INFO] normal - response静态资源-----application/octet-stream
+[2017-05-26 10:22:33.958] [INFO] normal - 打开连接
+[2017-05-26 10:22:34.047] [INFO] normal - 连接关闭
+[2017-05-26 10:22:34.167] [INFO] normal - -----pathname-----
+[2017-05-26 10:22:34.167] [INFO] normal - /favicon.ico
+[2017-05-26 10:24:34.181] [INFO] normal - -----pathname-----
+[2017-05-26 10:24:34.183] [INFO] normal - /favicon.ico
+[2017-05-26 10:25:16.786] [INFO] normal - -----pathname-----
+[2017-05-26 10:25:16.787] [INFO] normal - /
+[2017-05-26 10:25:16.830] [INFO] normal - -----pathname-----
+[2017-05-26 10:25:16.830] [INFO] normal - /lib/vue.js
+[2017-05-26 10:25:16.831] [INFO] normal - -----pathname-----
+[2017-05-26 10:25:16.831] [INFO] normal - /lib/element-ui/element-ui.css
+[2017-05-26 10:25:16.831] [INFO] normal - -----pathname-----
+[2017-05-26 10:25:16.836] [INFO] normal - /lib/element-ui/element-ui.js
+[2017-05-26 10:25:16.836] [INFO] normal - -----pathname-----
+[2017-05-26 10:25:16.836] [INFO] normal - /lib/vue-resource.min.js
+[2017-05-26 10:25:16.837] [INFO] normal - -----pathname-----
+[2017-05-26 10:25:16.838] [INFO] normal - /index.js
+[2017-05-26 10:25:16.868] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:25:16.876] [INFO] normal - response静态资源-----text/css
+[2017-05-26 10:25:16.878] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:25:16.879] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:25:16.931] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:25:17.541] [INFO] normal - -----pathname-----
+[2017-05-26 10:25:17.541] [INFO] normal - /lib/element-ui/fonts/element-icons.woff
+[2017-05-26 10:25:17.550] [INFO] normal - response静态资源-----application/x-font-woff
+[2017-05-26 10:25:17.644] [INFO] normal - -----pathname-----
+[2017-05-26 10:25:17.645] [INFO] normal - /persons
+[2017-05-26 10:25:17.698] [INFO] normal - -----pathname-----
+[2017-05-26 10:25:17.699] [INFO] normal - /lib/element-ui/fonts/element-icons.ttf
+[2017-05-26 10:25:17.700] [INFO] normal - response静态资源-----application/octet-stream
+[2017-05-26 10:25:17.869] [INFO] normal - -----pathname-----
+[2017-05-26 10:25:17.870] [INFO] normal - /favicon.ico
+[2017-05-26 10:25:18.175] [INFO] normal - 打开连接
+[2017-05-26 10:25:18.252] [INFO] normal - 连接关闭
+[2017-05-26 10:25:32.580] [INFO] normal - -----pathname-----
+[2017-05-26 10:25:32.581] [INFO] normal - /searchData
+[2017-05-26 10:25:32.583] [INFO] normal - select * from health_data where person=1 order by id desc limit 0,2;
+[2017-05-26 10:25:32.862] [INFO] normal - insert打开连接
+[2017-05-26 10:25:32.996] [INFO] normal - 连接关闭
+[2017-05-26 10:27:17.879] [INFO] normal - -----pathname-----
+[2017-05-26 10:27:17.880] [INFO] normal - /favicon.ico
+[2017-05-26 10:28:02.718] [INFO] normal - -----pathname-----
+[2017-05-26 10:28:02.719] [INFO] normal - /
+[2017-05-26 10:28:02.756] [INFO] normal - -----pathname-----
+[2017-05-26 10:28:02.757] [INFO] normal - /lib/vue.js
+[2017-05-26 10:28:02.761] [INFO] normal - -----pathname-----
+[2017-05-26 10:28:02.762] [INFO] normal - /lib/element-ui/element-ui.css
+[2017-05-26 10:28:02.762] [INFO] normal - -----pathname-----
+[2017-05-26 10:28:02.762] [INFO] normal - /lib/element-ui/element-ui.js
+[2017-05-26 10:28:02.767] [INFO] normal - -----pathname-----
+[2017-05-26 10:28:02.768] [INFO] normal - /lib/vue-resource.min.js
+[2017-05-26 10:28:02.768] [INFO] normal - -----pathname-----
+[2017-05-26 10:28:02.768] [INFO] normal - /index.js
+[2017-05-26 10:28:02.768] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:28:02.791] [INFO] normal - response静态资源-----text/css
+[2017-05-26 10:28:02.793] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:28:02.876] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:28:02.888] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:28:04.083] [INFO] normal - -----pathname-----
+[2017-05-26 10:28:04.083] [INFO] normal - /lib/element-ui/fonts/element-icons.woff
+[2017-05-26 10:28:04.091] [INFO] normal - response静态资源-----application/x-font-woff
+[2017-05-26 10:28:04.221] [INFO] normal - -----pathname-----
+[2017-05-26 10:28:04.222] [INFO] normal - /persons
+[2017-05-26 10:28:04.264] [INFO] normal - 打开连接
+[2017-05-26 10:28:04.284] [INFO] normal - -----pathname-----
+[2017-05-26 10:28:04.284] [INFO] normal - /lib/element-ui/fonts/element-icons.ttf
+[2017-05-26 10:28:04.292] [INFO] normal - 连接关闭
+[2017-05-26 10:28:04.293] [INFO] normal - response静态资源-----application/octet-stream
+[2017-05-26 10:28:04.628] [INFO] normal - -----pathname-----
+[2017-05-26 10:28:04.628] [INFO] normal - /favicon.ico
+[2017-05-26 10:30:04.648] [INFO] normal - -----pathname-----
+[2017-05-26 10:30:04.650] [INFO] normal - /favicon.ico
+[2017-05-26 10:33:01.806] [INFO] normal - -----pathname-----
+[2017-05-26 10:33:01.808] [INFO] normal - /
+[2017-05-26 10:33:01.936] [INFO] normal - -----pathname-----
+[2017-05-26 10:33:01.937] [INFO] normal - /lib/vue.js
+[2017-05-26 10:33:01.937] [INFO] normal - -----pathname-----
+[2017-05-26 10:33:01.938] [INFO] normal - /lib/element-ui/element-ui.css
+[2017-05-26 10:33:01.938] [INFO] normal - -----pathname-----
+[2017-05-26 10:33:01.938] [INFO] normal - /lib/element-ui/element-ui.js
+[2017-05-26 10:33:01.938] [INFO] normal - -----pathname-----
+[2017-05-26 10:33:01.938] [INFO] normal - /lib/vue-resource.min.js
+[2017-05-26 10:33:01.939] [INFO] normal - -----pathname-----
+[2017-05-26 10:33:01.939] [INFO] normal - /index.js
+[2017-05-26 10:33:01.944] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:33:01.946] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:33:02.125] [INFO] normal - response静态资源-----text/css
+[2017-05-26 10:33:02.138] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:33:02.139] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:33:02.887] [INFO] normal - -----pathname-----
+[2017-05-26 10:33:02.887] [INFO] normal - /lib/element-ui/fonts/element-icons.woff
+[2017-05-26 10:33:02.895] [INFO] normal - response静态资源-----application/x-font-woff
+[2017-05-26 10:33:03.031] [INFO] normal - -----pathname-----
+[2017-05-26 10:33:03.031] [INFO] normal - /persons
+[2017-05-26 10:33:03.097] [INFO] normal - -----pathname-----
+[2017-05-26 10:33:03.097] [INFO] normal - /lib/element-ui/fonts/element-icons.ttf
+[2017-05-26 10:33:03.098] [INFO] normal - response静态资源-----application/octet-stream
+[2017-05-26 10:33:03.321] [INFO] normal - -----pathname-----
+[2017-05-26 10:33:03.322] [INFO] normal - /favicon.ico
+[2017-05-26 10:33:03.449] [INFO] normal - 打开连接
+[2017-05-26 10:33:03.847] [INFO] normal - 连接关闭
+[2017-05-26 10:35:03.333] [INFO] normal - -----pathname-----
+[2017-05-26 10:35:03.336] [INFO] normal - /favicon.ico
+[2017-05-26 10:37:03.356] [INFO] normal - -----pathname-----
+[2017-05-26 10:37:03.358] [INFO] normal - /favicon.ico
+[2017-05-26 10:43:33.921] [INFO] normal - 服务器正在监听8000端口
+[2017-05-26 10:43:42.309] [INFO] normal - -----pathname-----
+[2017-05-26 10:43:42.311] [INFO] normal - /
+[2017-05-26 10:43:42.424] [INFO] normal - -----pathname-----
+[2017-05-26 10:43:42.424] [INFO] normal - /lib/vue.js
+[2017-05-26 10:43:42.426] [INFO] normal - -----pathname-----
+[2017-05-26 10:43:42.427] [INFO] normal - /lib/element-ui/element-ui.css
+[2017-05-26 10:43:42.427] [INFO] normal - -----pathname-----
+[2017-05-26 10:43:42.428] [INFO] normal - /lib/element-ui/element-ui.js
+[2017-05-26 10:43:42.447] [INFO] normal - -----pathname-----
+[2017-05-26 10:43:42.448] [INFO] normal - /lib/vue-resource.min.js
+[2017-05-26 10:43:42.449] [INFO] normal - -----pathname-----
+[2017-05-26 10:43:42.450] [INFO] normal - /index.js
+[2017-05-26 10:43:42.454] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:43:42.485] [INFO] normal - response静态资源-----text/css
+[2017-05-26 10:43:42.487] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:43:42.495] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:43:42.496] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:43:43.038] [INFO] normal - -----pathname-----
+[2017-05-26 10:43:43.038] [INFO] normal - /lib/element-ui/fonts/element-icons.woff
+[2017-05-26 10:43:43.048] [INFO] normal - response静态资源-----application/x-font-woff
+[2017-05-26 10:43:43.176] [INFO] normal - -----pathname-----
+[2017-05-26 10:43:43.177] [INFO] normal - /persons
+[2017-05-26 10:43:43.415] [INFO] normal - -----pathname-----
+[2017-05-26 10:43:43.416] [INFO] normal - /lib/element-ui/fonts/element-icons.ttf
+[2017-05-26 10:43:43.419] [INFO] normal - response静态资源-----application/octet-stream
+[2017-05-26 10:43:43.564] [INFO] normal - -----pathname-----
+[2017-05-26 10:43:43.564] [INFO] normal - /favicon.ico
+[2017-05-26 10:43:43.610] [INFO] normal - 打开连接
+[2017-05-26 10:43:44.125] [INFO] normal - 连接关闭
+[2017-05-26 10:43:48.866] [INFO] normal - -----pathname-----
+[2017-05-26 10:43:48.867] [INFO] normal - /searchAllData
+[2017-05-26 10:43:48.870] [INFO] normal - select persons.*, health_data.* from health_data, persons where health_data.person=persons.id and health_data.person=1;"
+    console.log("-------searchData sql--------");
+[2017-05-26 10:43:51.236] [INFO] normal - searchAllData打开连接
+[2017-05-26 10:43:51.466] [ERROR] normal - ----searchAllData error-----
+[2017-05-26 10:43:51.466] [ERROR] normal - { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"
+    console.log("-------searchData sql--------")' at line 1
+    at Query.Sequence._packetToError (/Users/huyuanyuan/WebstormProjects/Health/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/huyuanyuan/WebstormProjects/Health/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/huyuanyuan/WebstormProjects/Health/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/huyuanyuan/WebstormProjects/Health/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/huyuanyuan/WebstormProjects/Health/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/huyuanyuan/WebstormProjects/Health/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/huyuanyuan/WebstormProjects/Health/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Connection.query (/Users/huyuanyuan/WebstormProjects/Health/node_modules/mysql/lib/Connection.js:208:25)
+    at searchAllData (/Users/huyuanyuan/WebstormProjects/Health/server.js:214:16)
+    at Server.http.createServer (/Users/huyuanyuan/WebstormProjects/Health/server.js:73:13)
+    at emitTwo (events.js:106:13)
+    at Server.emit (events.js:191:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:547:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:99:23)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+[2017-05-26 10:43:51.671] [INFO] normal - 连接关闭
+[2017-05-26 10:45:19.432] [INFO] normal - 服务器正在监听8000端口
+[2017-05-26 10:45:24.456] [INFO] normal - -----pathname-----
+[2017-05-26 10:45:24.459] [INFO] normal - /
+[2017-05-26 10:45:24.566] [INFO] normal - -----pathname-----
+[2017-05-26 10:45:24.567] [INFO] normal - /lib/vue.js
+[2017-05-26 10:45:24.570] [INFO] normal - -----pathname-----
+[2017-05-26 10:45:24.595] [INFO] normal - /lib/element-ui/element-ui.css
+[2017-05-26 10:45:24.599] [INFO] normal - -----pathname-----
+[2017-05-26 10:45:24.599] [INFO] normal - /lib/element-ui/element-ui.js
+[2017-05-26 10:45:24.600] [INFO] normal - -----pathname-----
+[2017-05-26 10:45:24.601] [INFO] normal - /lib/vue-resource.min.js
+[2017-05-26 10:45:24.601] [INFO] normal - -----pathname-----
+[2017-05-26 10:45:24.602] [INFO] normal - /index.js
+[2017-05-26 10:45:24.606] [INFO] normal - response静态资源-----text/css
+[2017-05-26 10:45:24.612] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:45:24.631] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:45:24.635] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:45:24.636] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:45:25.451] [INFO] normal - -----pathname-----
+[2017-05-26 10:45:25.452] [INFO] normal - /lib/element-ui/fonts/element-icons.woff
+[2017-05-26 10:45:25.462] [INFO] normal - response静态资源-----application/x-font-woff
+[2017-05-26 10:45:25.599] [INFO] normal - -----pathname-----
+[2017-05-26 10:45:25.599] [INFO] normal - /persons
+[2017-05-26 10:45:25.905] [INFO] normal - -----pathname-----
+[2017-05-26 10:45:25.906] [INFO] normal - /lib/element-ui/fonts/element-icons.ttf
+[2017-05-26 10:45:25.908] [INFO] normal - response静态资源-----application/octet-stream
+[2017-05-26 10:45:26.127] [INFO] normal - -----pathname-----
+[2017-05-26 10:45:26.128] [INFO] normal - /favicon.ico
+[2017-05-26 10:45:27.800] [INFO] normal - 打开连接
+[2017-05-26 10:45:28.338] [INFO] normal - 连接关闭
+[2017-05-26 10:45:34.960] [INFO] normal - -----pathname-----
+[2017-05-26 10:45:34.960] [INFO] normal - /searchAllData
+[2017-05-26 10:45:34.965] [INFO] normal - select persons.*, health_data.* from health_data, persons where health_data.person=persons.id and health_data.person=1;"
+    console.log("-------searchData sql--------");
+[2017-05-26 10:45:36.055] [INFO] normal - searchAllData打开连接
+[2017-05-26 10:45:36.627] [ERROR] normal - ----searchAllData error-----
+[2017-05-26 10:45:36.628] [ERROR] normal - { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"
+    console.log("-------searchData sql--------")' at line 1
+    at Query.Sequence._packetToError (/Users/huyuanyuan/WebstormProjects/Health/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/huyuanyuan/WebstormProjects/Health/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/huyuanyuan/WebstormProjects/Health/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/huyuanyuan/WebstormProjects/Health/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/huyuanyuan/WebstormProjects/Health/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/huyuanyuan/WebstormProjects/Health/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/huyuanyuan/WebstormProjects/Health/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Connection.query (/Users/huyuanyuan/WebstormProjects/Health/node_modules/mysql/lib/Connection.js:208:25)
+    at searchAllData (/Users/huyuanyuan/WebstormProjects/Health/server.js:214:16)
+    at Server.http.createServer (/Users/huyuanyuan/WebstormProjects/Health/server.js:73:13)
+    at emitTwo (events.js:106:13)
+    at Server.emit (events.js:191:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:547:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:99:23)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+[2017-05-26 10:45:37.446] [INFO] normal - 连接关闭
+[2017-05-26 10:47:27.502] [INFO] normal - 服务器正在监听8000端口
+[2017-05-26 10:47:30.577] [INFO] normal - -----pathname-----
+[2017-05-26 10:47:30.579] [INFO] normal - /
+[2017-05-26 10:47:30.734] [INFO] normal - -----pathname-----
+[2017-05-26 10:47:30.735] [INFO] normal - /lib/vue.js
+[2017-05-26 10:47:30.736] [INFO] normal - -----pathname-----
+[2017-05-26 10:47:30.737] [INFO] normal - /lib/element-ui/element-ui.js
+[2017-05-26 10:47:30.737] [INFO] normal - -----pathname-----
+[2017-05-26 10:47:30.737] [INFO] normal - /lib/element-ui/element-ui.css
+[2017-05-26 10:47:30.738] [INFO] normal - -----pathname-----
+[2017-05-26 10:47:30.738] [INFO] normal - /lib/vue-resource.min.js
+[2017-05-26 10:47:30.740] [INFO] normal - -----pathname-----
+[2017-05-26 10:47:30.740] [INFO] normal - /index.js
+[2017-05-26 10:47:30.744] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:47:30.748] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:47:30.776] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:47:30.779] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:47:30.806] [INFO] normal - response静态资源-----text/css
+[2017-05-26 10:47:31.655] [INFO] normal - -----pathname-----
+[2017-05-26 10:47:31.655] [INFO] normal - /lib/element-ui/fonts/element-icons.woff
+[2017-05-26 10:47:31.658] [INFO] normal - response静态资源-----application/x-font-woff
+[2017-05-26 10:47:31.779] [INFO] normal - -----pathname-----
+[2017-05-26 10:47:31.779] [INFO] normal - /persons
+[2017-05-26 10:47:32.150] [INFO] normal - -----pathname-----
+[2017-05-26 10:47:32.151] [INFO] normal - /lib/element-ui/fonts/element-icons.ttf
+[2017-05-26 10:47:32.154] [INFO] normal - response静态资源-----application/octet-stream
+[2017-05-26 10:47:32.376] [INFO] normal - -----pathname-----
+[2017-05-26 10:47:32.379] [INFO] normal - /favicon.ico
+[2017-05-26 10:47:35.433] [INFO] normal - 打开连接
+[2017-05-26 10:47:35.493] [INFO] normal - 连接关闭
+[2017-05-26 10:47:40.238] [INFO] normal - -----pathname-----
+[2017-05-26 10:47:40.238] [INFO] normal - /searchAllData
+[2017-05-26 10:47:40.242] [INFO] normal - select persons.*, health_data.* from health_data, persons where health_data.person=persons.id and health_data.person=1
+[2017-05-26 10:47:40.855] [INFO] normal - searchAllData打开连接
+[2017-05-26 10:47:41.340] [INFO] normal - 连接关闭
+[2017-05-26 10:49:11.516] [INFO] normal - 服务器正在监听8000端口
+[2017-05-26 10:49:21.679] [INFO] normal - -----pathname-----
+[2017-05-26 10:49:21.680] [INFO] normal - /
+[2017-05-26 10:49:21.793] [INFO] normal - -----pathname-----
+[2017-05-26 10:49:21.793] [INFO] normal - /lib/vue.js
+[2017-05-26 10:49:21.798] [INFO] normal - -----pathname-----
+[2017-05-26 10:49:21.799] [INFO] normal - /lib/element-ui/element-ui.css
+[2017-05-26 10:49:21.802] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:49:21.807] [INFO] normal - -----pathname-----
+[2017-05-26 10:49:21.808] [INFO] normal - /lib/element-ui/element-ui.js
+[2017-05-26 10:49:21.809] [INFO] normal - -----pathname-----
+[2017-05-26 10:49:21.809] [INFO] normal - /lib/vue-resource.min.js
+[2017-05-26 10:49:21.812] [INFO] normal - -----pathname-----
+[2017-05-26 10:49:21.812] [INFO] normal - /index.js
+[2017-05-26 10:49:21.813] [INFO] normal - response静态资源-----text/css
+[2017-05-26 10:49:21.824] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:49:21.825] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:49:21.849] [INFO] normal - response静态资源-----text/javascript
+[2017-05-26 10:49:22.569] [INFO] normal - -----pathname-----
+[2017-05-26 10:49:22.569] [INFO] normal - /lib/element-ui/fonts/element-icons.woff
+[2017-05-26 10:49:22.570] [INFO] normal - response静态资源-----application/x-font-woff
+[2017-05-26 10:49:22.712] [INFO] normal - -----pathname-----
+[2017-05-26 10:49:22.712] [INFO] normal - /persons
+[2017-05-26 10:49:22.913] [INFO] normal - -----pathname-----
+[2017-05-26 10:49:22.914] [INFO] normal - /lib/element-ui/fonts/element-icons.ttf
+[2017-05-26 10:49:22.917] [INFO] normal - response静态资源-----application/octet-stream
+[2017-05-26 10:49:22.965] [INFO] normal - 打开连接
+[2017-05-26 10:49:22.997] [INFO] normal - 连接关闭
+[2017-05-26 10:49:23.113] [INFO] normal - -----pathname-----
+[2017-05-26 10:49:23.114] [INFO] normal - /favicon.ico
+[2017-05-26 10:49:31.875] [INFO] normal - -----pathname-----
+[2017-05-26 10:49:31.875] [INFO] normal - /searchAllData
+[2017-05-26 10:49:31.882] [INFO] normal - select persons.*, health_data.* from health_data, persons where health_data.person=persons.id and health_data.person=1 order by health_data.id desc
+[2017-05-26 10:49:32.527] [INFO] normal - searchAllData打开连接
+[2017-05-26 10:49:33.184] [INFO] normal - 连接关闭
+[2017-05-26 10:49:43.399] [INFO] normal - -----pathname-----
+[2017-05-26 10:49:43.399] [INFO] normal - /searchData
+[2017-05-26 10:49:43.402] [INFO] normal - select * from health_data where person=1 order by id desc limit 0,2;
+[2017-05-26 10:49:44.806] [INFO] normal - searchData打开连接
+[2017-05-26 10:49:47.505] [INFO] normal - -----pathname-----
+[2017-05-26 10:49:47.505] [INFO] normal - /searchData
+[2017-05-26 10:49:47.507] [INFO] normal - select * from health_data where person=1 order by id desc limit 0,2;
+[2017-05-26 10:49:47.670] [INFO] normal - 连接关闭
+[2017-05-26 10:49:48.828] [INFO] normal - searchData打开连接
+[2017-05-26 10:49:50.260] [INFO] normal - 连接关闭
+[2017-05-26 10:51:23.124] [INFO] normal - -----pathname-----
+[2017-05-26 10:51:23.124] [INFO] normal - /favicon.ico

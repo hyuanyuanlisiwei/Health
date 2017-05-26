@@ -5,7 +5,12 @@ let vm=new Vue({
     el:"#app",
     data:{
         activeIndex:"1",
+        //最近两次对比的数据;
         tableData:[],
+        //该人所有历史数据;
+        tableAllData:[],
+        age:0,
+        height:0,
         InputData:{
             person:"",
             weight:"",
@@ -31,6 +36,15 @@ let vm=new Vue({
         });
     },
     methods:{
+        changePerson:function(personId){
+           for(let person of this.persons){
+               if(person.id==personId){
+                   this.age=person.age;
+                   this.height=person.height;
+                   break;
+               }
+           }
+        },
         initPersons:function () {
             this.$http({
                 method:"GET",
@@ -65,6 +79,19 @@ let vm=new Vue({
                 }
             },res=>{
                 "use strict";
+            });
+        },
+        searchAllData:function(){
+            this.$http({
+                method:"GET",
+                url:"/searchAllData",
+                params:{
+                    person:this.InputData.person
+                },
+                emulateJSON:true
+            }).then(res=>{
+                "use strict";
+                this.tableAllData=JSON.parse(res.data);
             });
         },
         searchData:function () {

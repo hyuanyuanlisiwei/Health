@@ -32,9 +32,19 @@
             <el-col :span="22">
                 <el-form :model="InputData" :inline="true" class="demo-form-inline el-form" label-width="150px">
                     <el-form-item label="姓名">
-                        <el-select v-model="InputData.person" placeholder="姓名">
+                        <el-select v-model="InputData.person" placeholder="姓名" @change="changePerson">
                             <el-option v-for="item in persons" :value="item.id" :label="item.name"></el-option>
                         </el-select>
+                    </el-form-item>
+                    <el-form-item label="年龄">
+                        <el-input v-model="age" :disabled="true"></el-input>
+                    </el-form-item>
+                    <el-form-item label="身高(cm)">
+                        <el-input v-model="height" :disabled="true"></el-input>
+                    </el-form-item>
+
+                    <el-form-item label="体重(kg)">
+                        <el-input v-model="InputData.weight"></el-input>
                     </el-form-item>
                     <el-form-item label="体重(kg)">
                         <el-input v-model="InputData.weight"></el-input>
@@ -79,15 +89,18 @@
                         <el-input v-model="InputData.lowerMuscle"></el-input>
                     </el-form-item>
                     <el-form-item>
-                        <el-button type="primary" @click="submitData">提交数据</el-button>
-                        <el-button type="primary" @click="sendEmail">发送邮件</el-button>
-                        <el-button type="primary" @click="searchData">按名查询</el-button>
+                        <el-button type="primary" @click="submitData">提交数据并查询(最近两次)</el-button>
+                        <el-button type="primary" @click="sendEmail">发送邮件(最近两次)</el-button>
+                        <el-button type="primary" @click="searchData">按名查询(最近两次)</el-button>
+                        <el-button type="primary" @click="searchAllData">查询所有历史数据</el-button>
                     </el-form-item>
                 </el-form>
+
             </el-col>
         </el-row>
         <el-row type="flex" justify="center">
             <el-col :span="22">
+                <h1>最近两次</h1>
                 <el-table
                     :data="tableData"
                     border
@@ -167,9 +180,96 @@
                 </el-table>
             </el-col>
         </el-row>
-
-
-
+        <el-row type="flex" justify="center">
+            <el-col :span="22">
+                <h1>查询所有(倒序排列)</h1>
+                <el-table
+                        :data="tableAllData"
+                        border
+                        style="width: 100%">
+                    <el-table-column
+                            prop="name"
+                            label="姓名">
+                    </el-table-column>
+                    <el-table-column
+                            prop="age"
+                            label="年龄">
+                    </el-table-column>
+                    <el-table-column
+                            prop="height"
+                            label="身高">
+                    </el-table-column>
+                    <el-table-column
+                            prop="weight"
+                            label="体重(kg)">
+                    </el-table-column>
+                    <el-table-column
+                            prop="bodyAge"
+                            label="体年龄">
+                    </el-table-column>
+                    <el-table-column
+                            prop="bmi"
+                            label="BMI">
+                    </el-table-column>
+                    <el-table-column
+                            prop="bodyFatRate"
+                            label="体脂率(%)">
+                    </el-table-column>
+                    <el-table-column
+                            prop="bmr"
+                            label="基础代谢(kcal)">
+                    </el-table-column>
+                    <el-table-column
+                            prop="viseralFat"
+                            label="内脏脂肪">
+                    </el-table-column>
+                    <el-table-column
+                            label="全身">
+                        <el-table-column
+                                prop="allFat"
+                                label="皮脂">
+                        </el-table-column>
+                        <el-table-column
+                                prop="allMuscle"
+                                label="肌肉">
+                        </el-table-column>
+                    </el-table-column>
+                    <el-table-column
+                            label="上肢">
+                        <el-table-column
+                                prop="upperFat"
+                                label="皮脂">
+                        </el-table-column>
+                        <el-table-column
+                                prop="upperMuscle"
+                                label="肌肉">
+                        </el-table-column>
+                    </el-table-column>
+                    <el-table-column
+                            label="躯干">
+                        <el-table-column
+                                prop="trunkFat"
+                                label="皮脂">
+                        </el-table-column>
+                        <el-table-column
+                                prop="trunkMuscle"
+                                label="肌肉">
+                        </el-table-column>
+                    </el-table-column>
+                    <el-table-column
+                            label="下肢">
+                        <el-table-column
+                                prop="lowerFat"
+                                label="皮脂">
+                        </el-table-column>
+                        <el-table-column
+                                prop="lowerMuscle"
+                                label="肌肉">
+                        </el-table-column>
+                    </el-table-column>
+                </el-table>
+            </el-col>
+        </el-row>
     </div>
     <script src="index.js"></script>
 </body>

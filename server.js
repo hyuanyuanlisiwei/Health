@@ -30,11 +30,11 @@ const MIME_TYPE={
 };
 //数据库配置;
 const client={
-    host:"localhost",
+    host:"182.92.173.117",
     port:3306,
     database:"health",
     user:"test",
-    password:"test"
+    password:"test@fftime"
 };
 //Object扩展entries方法
 Object.prototype.entries=function (item) {
@@ -68,6 +68,9 @@ http.createServer((request,response)=>{
             break;
         case "/searchData":
             searchData(request,response);
+            break;
+        case "/searchAllData":
+            searchAllData(request,response);
             break;
         case "/sendEmail":
             sendEmail(request,response);
@@ -186,7 +189,49 @@ function submitData(request,response) {
         }
     });
 }
-//查询数据表
+//查询所有
+function searchAllData(request,response) {
+    "use strict";
+    //创建数据库连接
+    let connection=mysql.createConnection(client);
+    //连接数据库;
+    connection.connect(err=>{
+        if(err){
+            logger.error("----searchAllData  error-----");
+            logger.error(err);
+            return;
+        }else{
+            logger.info("searchAllData打开连接");
+        }
+    });
+    //获取参数;
+    let params=url.parse(request.url,true).query;
+    let sql=`select persons.*, health_data.* from health_data, persons `+
+        `where health_data.person=persons.id and health_data.person=${params.person} order by health_data.id desc`;
+    console.log("-------searchData sql--------");
+    logger.info(sql);
+    //执行查询;
+    connection.query(sql,(err,rows,fields)=>{
+        if(err){
+            logger.error("----searchAllData error-----");
+            logger.error(err);
+            return;
+        }
+        response.write(JSON.stringify(rows));
+        response.end();
+    });
+    //关闭连接
+    connection.end(err=>{
+        if(err){
+            logger.error(err);
+            return;
+        }else{
+            logger.info("连接关闭");
+        }
+    });
+}
+
+//查询最近两次 数据表
 function searchData(request,response) {
     "use strict";
     //创建数据库连接
@@ -198,12 +243,12 @@ function searchData(request,response) {
             logger.error(err);
             return;
         }else{
-            logger.info("insert打开连接");
+            logger.info("searchData打开连接");
         }
     });
     //获取参数;
     let params=url.parse(request.url,true).query;
-    let sql="select * from health_data where person="+params['person']+" order by id desc limit 0,2;";
+    let sql=`select * from health_data where person=${params.person} order by id desc limit 0,2;`;
     console.log("-------searchData sql--------");
     logger.info(sql);
     //执行查询;
