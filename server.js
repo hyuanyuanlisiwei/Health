@@ -166,7 +166,7 @@ function submitData(request,response) {
         keys.push(key);
         values.push(value);
     }
-    let sql="insert into health_data ("+keys.join(",")+") values ("+values.join(",")+");";
+    let sql=`insert into health_data (${keys.join(",")}) values (${values.join(",")});`;
     console.log("-------insert sql--------");
     console.log(sql);
     //执行sql;
